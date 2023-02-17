@@ -4,8 +4,10 @@ export const Container = styled.div`
   border: 1px solid black;
   padding: 8px;
   border-radius: 4px;
-  width: 480px;
-  height: 480px;
+  width: 380px;
+  height: 450px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 `;
 
 export const Image = styled.img`
@@ -56,9 +58,8 @@ export const ActiveItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  width: 120px;
   padding: 15px;
-
   border: 1px solid #dddddd;
 `;
 
